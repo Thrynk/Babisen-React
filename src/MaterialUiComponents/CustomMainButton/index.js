@@ -1,0 +1,1 @@
+export { CustomMainButton } from './customMainButton';
