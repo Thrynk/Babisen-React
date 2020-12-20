@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useStyle } from "./style.js";
 import {
+    Avatar,
     Checkbox,
     FormControlLabel,
     Grid,
@@ -137,13 +138,7 @@ export function Login() {
                     style={{ backgroundColor: "white" }}
                 >
                     <Grid item xs={12}>
-                        <h1
-                            style={{
-                                fontFamily: "Pacifico, cursive",
-                            }}
-                        >
-                            Se connecter
-                        </h1>
+                        <Avatar alt="Logo" src="/logo.jpeg" className={classes.avatar} />
                     </Grid>
                     <Grid item xs={12}>
                         <form

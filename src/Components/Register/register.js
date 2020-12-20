@@ -4,7 +4,8 @@ import {
     Checkbox,
     FormControlLabel,
     Grid,
-    useTheme
+    useTheme,
+    Avatar
 } from "@material-ui/core";
 import { CustomTextField } from "../../MaterialUiComponents/CustomTextField";
 import { CustomPasswordTextField } from "../../MaterialUiComponents/CustomPasswordTextField";
@@ -158,13 +159,7 @@ export function Register() {
                     style={{ backgroundColor: "white" }}
                 >
                     <Grid item xs={12}>
-                        <h1
-                            style={{
-                                fontFamily: "Pacifico, cursive",
-                            }}
-                        >
-                            S'inscrire
-                        </h1>
+                        <Avatar alt="Logo" src="/logo.jpeg" className={classes.avatar} />
                     </Grid>
                     <Grid item xs={12}>
                         <form
